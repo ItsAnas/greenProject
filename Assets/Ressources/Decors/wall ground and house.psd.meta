@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 2b5b938424d8af5448c2107e29df9acb
+guid: e8278bcacebf87a44ae97278345a94c7
 TextureImporter:
   fileIDToRecycleName:
-    21300000: mairie_0
-    21300002: mairie_1
+    21300000: wall ground and house_0
+    21300002: wall ground and house_1
+    21300004: wall ground and house_2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -31,7 +32,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -102,56 +103,65 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mairie_0
+      name: wall ground and house_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 56
-        width: 106
-        height: 72
+        y: 106
+        width: 92
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e508b9bfdd055942936b5aea14cea42
+      spriteID: 64fa0cd9dc389c04caa8d68345bf5816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mairie_1
+      name: wall ground and house_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 110
-        height: 40
+        y: 93
+        width: 91
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea206455008e48744a9a60ccaaedce9a
+      spriteID: a23f55c09d0b88f4289cf7429d3abbc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall ground and house_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8f3af8e2e5e6540ae41d77bc58d102
       vertices: []
       indices: 
       edges: []
@@ -159,7 +169,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 01b086748c8077c4fbc2096cf50d9b24
+    spriteID: f8b23f2a34fc6d6429edb2baead16c9a
     vertices: []
     indices: 
     edges: []
