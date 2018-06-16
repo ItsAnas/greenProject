@@ -15,14 +15,10 @@ public class weaponController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
 		rJoystickHorizontal = Input.GetAxis("Right Horizontal");
 		rJoystickVertical = Input.GetAxis("Right Vertical");
 
 		float angle = Mathf.Atan2(-rJoystickVertical,rJoystickHorizontal) * Mathf.Rad2Deg;
-
-
-		
 		transform.rotation = Quaternion.Euler(0,0,angle);
 
 		if ((rJoystickHorizontal != 0 || rJoystickVertical != 0) && allowfire)
@@ -40,7 +36,6 @@ public class weaponController : MonoBehaviour {
 		Destroy(go,2f);
 		yield return new WaitForSeconds(b.rate);
 		allowfire = true;
-
 	}
 }
 

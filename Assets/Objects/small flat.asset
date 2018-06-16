@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c09f507750007f48a8f65224a5ef20f, type: 3}
-  m_Name: mairie
+  m_Name: small flat
   m_EditorClassIdentifier: 
-  nameOfTheBuilding: mairie
+  nameOfTheBuilding: small flat
   points: 0
-  destroyed: {fileID: 21300000, guid: 2b5b938424d8af5448c2107e29df9acb, type: 3}
-  alive: {fileID: 21300000, guid: d1014bbcc0d3b9240aad9abd9e2a4bdf, type: 3}
+  destroyed: {fileID: 21300014, guid: e8278bcacebf87a44ae97278345a94c7, type: 3}
+  alive: {fileID: 21300012, guid: e8278bcacebf87a44ae97278345a94c7, type: 3}

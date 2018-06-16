@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: 2b5b938424d8af5448c2107e29df9acb
+guid: 71e04c4c53bfa184fa41d5e66360a163
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: mairie_0
-    21300002: mairie_1
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -40,7 +38,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,64 +100,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: mairie_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 56
-        width: 106
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee3926d9db4d63a489c3ac277fd1fd61
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mairie_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 15
-        width: 110
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b06841a48e28684b80db21245687db8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 01b086748c8077c4fbc2096cf50d9b24
+    spriteID: a2324ce0785246c4b885a3e6961887e8
     vertices: []
     indices: 
     edges: []

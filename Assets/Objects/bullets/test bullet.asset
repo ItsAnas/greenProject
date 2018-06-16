@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bfa1b6f4aabc4a41b5f37b8e06f7348, type: 3}
   m_Name: test bullet
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 05e55b7e3acfbc94481d4cbc26eeb989, type: 3}
   speed: 2
   damage: 10
   rate: 0.2
