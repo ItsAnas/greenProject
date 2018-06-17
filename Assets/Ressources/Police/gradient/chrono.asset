@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
-  m_Name: Title
+  m_Name: chrono
   m_EditorClassIdentifier: 
-  topLeft: {r: 1, g: 0.95441294, b: 0, a: 1}
-  topRight: {r: 1, g: 0.95441294, b: 0, a: 1}
+  topLeft: {r: 1, g: 0.16184291, b: 0, a: 1}
+  topRight: {r: 1, g: 0.15225331, b: 0, a: 1}
   bottomLeft: {r: 1, g: 0.6486546, b: 0, a: 1}
   bottomRight: {r: 1, g: 0.6486546, b: 0, a: 1}

@@ -6,6 +6,13 @@ TagManager:
   tags:
   - "D\xE9cors"
   - turret
+  - manager
+  - bullet
+  - gluant
+  - cigarette
+  - control
+  - pokecenter
+  - boss
   layers:
   - Default
   - TransparentFX

@@ -22,7 +22,7 @@ public class mainManager : MonoBehaviour {
 		}
 	}
 
-	void hit()
+	public void hit()
 	{
 		life--;
 		life_sprite.fillAmount -= 0.25f;
@@ -32,7 +32,7 @@ public class mainManager : MonoBehaviour {
 		}
 	}
 
-	void die()
+	private void die()
 	{
 		
 	}
