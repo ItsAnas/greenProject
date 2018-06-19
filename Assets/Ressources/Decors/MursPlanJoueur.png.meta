@@ -1,7 +1,12 @@
 fileFormatVersion: 2
-guid: 71e04c4c53bfa184fa41d5e66360a163
+guid: 9d765f506d0576e4f82919141a533025
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MursPlanJoueur_0
+    21300002: MursPlanJoueur_3
+    21300004: MursPlanJoueur_4
+    21300006: MursPlanJoueur_5
+    21300008: MursPlanJoueur_7
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,11 +107,111 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MursPlanJoueur_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 128
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0c53f5c99930a4dab63435137f82da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MursPlanJoueur_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 128
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51f0983c462d584ba885ac6621a0862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MursPlanJoueur_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 128
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f682a854d6f18648b95c700360da0f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MursPlanJoueur_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 128
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305b4f488d9a1924983e088919e57cb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MursPlanJoueur_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3384f505fd79b44cb33d4e6c3746725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a2324ce0785246c4b885a3e6961887e8
+    spriteID: 0790cefeb5796dc40a25fa1b102985ca
     vertices: []
     indices: 
     edges: []

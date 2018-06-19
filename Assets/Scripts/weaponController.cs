@@ -13,8 +13,8 @@ public class weaponController : MonoBehaviour {
 
 	private bool allowfire = true;
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    public void Update () {
 		rJoystickHorizontal = Input.GetAxis("Right Horizontal");
 		rJoystickVertical = Input.GetAxis("Right Vertical");
 

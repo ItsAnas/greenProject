@@ -13,6 +13,7 @@ public class gluant : MonoBehaviour
     public float MoveSpeed = 4;
     public float MinDist = 5;
     public GameObject bubble;
+    private Animator animGluant;
 
 
     /// <summary>
@@ -22,6 +23,7 @@ public class gluant : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
+        animGluant = GetComponent<Animator>();
     }
 
 
@@ -44,10 +46,12 @@ public class gluant : MonoBehaviour
             if (transform.position.x < Player.transform.position.x)
             {
                 transform.position += Vector3.right * MoveSpeed * Time.deltaTime;
+                animGluant.SetBool("running", true);
             }
             else
             {
                 transform.position += Vector3.left * MoveSpeed * Time.deltaTime;
+                animGluant.SetBool("running", true);
             }
         }
     }
@@ -65,6 +69,8 @@ public class gluant : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<playerController>().getDamage();
+            animGluant.SetTrigger("attacking");
+            
         }
 		/*
         else if (other.gameObject.CompareTag("bullet"))

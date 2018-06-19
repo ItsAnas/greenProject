@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: e018aa4d1b16acd4397e1713ae5c6752
+guid: 9ea42120639bb914ca97b097d1a0e278
 TextureImporter:
   fileIDToRecycleName:
-    21300000: MursPlanJoueurPropres_0
-    21300002: MursPlanJoueurPropres_1
-    21300004: MursPlanJoueurPropres_2
-    21300006: MursPlanJoueurPropres_3
-    21300008: MursPlanJoueurPropres_4
+    21300000: Fx-Feu-ArmeSpriteSheet_0
+    21300002: Fx-Feu-ArmeSpriteSheet_1
+    21300004: Fx-Feu-ArmeSpriteSheet_2
+    21300006: Fx-Feu-ArmeSpriteSheet_3
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -105,116 +104,85 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MursPlanJoueurPropres_0
+      name: Fx-Feu-ArmeSpriteSheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 106
-        width: 128
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9abc7e293408c10448b8899c21dafadf
+      spriteID: 66b3905d84b596a4c8baf341560f54bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MursPlanJoueurPropres_1
+      name: Fx-Feu-ArmeSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 82
-        width: 128
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0a1f3743877a404d9dfd2bffa4a99e8
+      spriteID: 63fb09788833a2e4291e737e53db7f48
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MursPlanJoueurPropres_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 55
-        width: 128
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 882200efde6f3924c8f43bb7f4def8ae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MursPlanJoueurPropres_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 28
-        width: 128
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f45c675f5b613a6408679f327ecaa691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MursPlanJoueurPropres_4
+      name: Fx-Feu-ArmeSpriteSheet_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aa6f5a214ef028438ca024fe1ed2a60
+      spriteID: 22b63ae1c04968341a3eb668a2d32a44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fx-Feu-ArmeSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74f5d08dcaa9094baea21f77bf25e8a
       vertices: []
       indices: 
       edges: []
@@ -222,7 +190,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 49d84deb4a9c4df40929d4b0da50841c
+    spriteID: da79e3a3e166b8747b8b7e3e12c8dfa1
     vertices: []
     indices: 
     edges: []
