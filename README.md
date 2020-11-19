@@ -17,4 +17,4 @@ As long as you kill the pollution, the city will become cleaner.
 
 ### DEMO HERE
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fkTC2Bu3_CM/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=fkTC2Bu3_CM)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fkTC2Bu3_CM/0.jpg)](https://www.youtube.com/watch?v=fkTC2Bu3_CM)
